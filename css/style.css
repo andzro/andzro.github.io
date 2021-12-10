@@ -1,104 +1,14 @@
-/* 	Theme colors 
-	http://paletton.com/#uid=14g0u0kdSok1MQC7kvtjZiisLaU
-*/
-
-/* Main Primary color */
-:root{
-	--color-primary-0 : #B6244F;
-	--color-primary-1 : #FBB7C0;
-	--color-primary-2 : #BFADA3;
-	--color-primary-3 : #B89685;
-	--color-primary-4 : #504746;
+.link-no-style {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+.link-no-style:link {
+color: inherit;
+text-decoration: inherit;
 }
 
-html{
-	scroll-snap-type: y mandatory;
-}
-
-body{
-	margin:0;
-	font: normal normal normal 14px/1.6 'Open Sans', sans-serif;
-	height:100%;
-	scroll-snap-type: y mandatory;
-}
-
-h1,h2,h3,p{
-	color:whitesmoke;
-	margin:0;
-}
-
-
-.grid-container{
-	margin: 0;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-}
-
-.section-1{
-	display:grid;
-	width: 100%;
-	height: 100vh;
-	justify-content: center;
-	background: var(--color-primary-0);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	scroll-snap-align: start;
-	scroll-snap-type: y mandatory;
-}
-
-.section-1 .header-content{
-	text-align: center;
-	padding: 155px 40px 180px;
-}
-
-.section-1 .profile-picture img{
-	height: 250px;
-	width: 250px;
-	border-radius: 50%;
-	object-fit: cover;
-	display: block;
-	margin: auto;
-}
-
-.section-2{
-	background: var(--color-primary-3);
-	height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr;
-	scroll-snap-align: start;
-}
-
-.section-2 .content{
-	text-align: center;
-}
-
-
-.section-3{
-	background: var(--color-primary-2);
-	text-align: center;
-}
-
-.section-3 .content {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-
-.section-3 .content img{
-	height: 150px;
-	width: 150px;
-}
-
-
-
-@media screen and (max-width: 870px)
-{
-	.section-1 .profile-picture img{
-		height: 200px;
-		width: 200px;
-	}
-
-	.section-1 .header-content{
-		padding: 100px 3% 120px;
-	}
+.link-no-style:hover {
+color: inherit;
+text-decoration: inherit;
 }
